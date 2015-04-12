@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="View-Tweets---News-Page" sketch:type="MSArtboardGroup" transform="translate(-330.000000, -121.000000)" fill="#B6B6B6">
+            <g id="Header" sketch:type="MSLayerGroup" transform="translate(72.000000, 116.000000)">
+                <path d="M268.857939,14.6519946 L265.103945,10.898 L268.857939,7.14400536 C269.263233,6.73871191 269.263233,6.0862182 268.857939,5.68092475 C268.452646,5.2756313 267.800152,5.2756313 267.394859,5.68092475 L263.640864,9.43491939 L259.886869,5.68092475 C259.481576,5.2756313 258.829082,5.2756313 258.423789,5.68092475 C258.018495,6.0862182 258.018495,6.73871191 258.423789,7.14400536 L262.177783,10.898 L258.423789,14.6519946 C258.018495,15.0572881 258.018495,15.7097818 258.423789,16.1150752 C258.829082,16.5203687 259.481576,16.5203687 259.886869,16.1150752 L263.640864,12.3610806 L267.394859,16.1150752 C267.800152,16.5203687 268.452646,16.5203687 268.857939,16.1150752 C269.260358,15.7097818 269.260358,15.0544137 268.857939,14.6519946 L268.857939,14.6519946 Z" id="Close" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

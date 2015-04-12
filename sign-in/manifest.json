@@ -3,14 +3,26 @@
   "version": "1.1",
   "description": "View topic comments, not just article commenst.",
   "manifest_version": 2,
-  "content_scripts": [
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["jquery.js", "script.js"],
-      "css": ["styles.css"]
-    }
-  ],
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["jquery.js", "script.js"],
+    "css": ["styles.css"],
+    "run_at": "document_start"
+  },
+  {
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["jquery.js", "after.js"],
+    "run_at": "document_end"
+  }],
+  "background": {
+    "scripts": ["jquery.js", "background.js"]
+  },
   "web_accessible_resources": [
-    "index.html"
+    "index.html",
+    "tweets.html"
+  ],
+  "permissions": [
+    "webRequest",
+    "*://*/*"
   ]
 }
