@@ -6,7 +6,7 @@ body {
 	position:fixed;
 	top:0px;
 	left:0px;
-	width:22%;
+	width:300px;
 	height:100%;
 	background:#FAFAFB;
 	z-index:999999;
@@ -22,8 +22,8 @@ body {
 	font-size: 14px;
 	padding-top: 6%;
 	padding-left: 7%;
-	padding-bottom: 7%;
-	color: #BFBFC1;
+	padding-bottom: 2%;
+	color: #B6B6B6;
 }
 
 .mid {
@@ -31,17 +31,15 @@ body {
 	color: #9A928E;
 	padding-top: 7%;
 	padding-left: 25%;
-	padding-bottom: 7%;
+	padding-bottom: 2%;
 	font-family: Helvetica;
 }
 
 .right-button {
 	float: right;
-	font-size: 16px;
-	padding-top: 7%;
+	padding-top: 8%;
 	padding-right: 7%;
-	padding-bottom: 7%;
-	color: #BFBFC1;
+	padding-bottom: 2%;	
 }
 
 .title {
@@ -68,7 +66,7 @@ body {
 	text-align: center;
 }
 
-.prompt button{
+.prompt button {
 	padding-top: 5%;
 	padding-bottom: 5%;
 	padding-left: 25%;
@@ -81,7 +79,52 @@ body {
 	border-color: #5491C0;
 }
 
+ul {
+	list-style-type: none;
+	display: inline;
+}
+
+li {
+	background-color: white;
+	display: flex;
+    flex-flow: row wrap;
+}
+
+.media-left img{
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+.media-right {
+	display: inline;
+	float: right;
+}
+
+.name a {
+	color:#000000;
+}
+
+.name a:link {
+ 	text-decoration: none;
+}
+
+.name a:hover {
+	text-decoration: underline;
+}
+
+.username {
+	display: inline;
+}
+
+.button {
+	display: inline;
+}
+
 iframe {
-	padding-left: 22%;
+	padding-left: 300px;
 	border: none;
 }
