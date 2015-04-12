@@ -9,5 +9,8 @@
       "js": ["jquery.js", "script.js"],
       "css": ["styles.css"]
     }
+  ],
+  "web_accessible_resources": [
+    "index.html"
   ]
 }
