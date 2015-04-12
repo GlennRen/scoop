@@ -1,0 +1,41 @@
+#scoop {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:20%;
+	height:100%;
+	background:#FAFAFB;
+	z-index:999999;
+}
+
+#my-div {
+	box-sizing: border-box;
+	width: 100%;
+	padding-left: 20%;
+}
+
+#top-bar{
+	padding-bottom: 7%;
+	padding-top: 5%
+}
+
+#sign-out, #title, #x {
+	display: inline;
+}
+
+#sign-out {
+	font-size: 14px;
+	color: #C8C0BE;	
+	padding-left: 5%;	
+}
+
+#title {
+	font-size: 16px;
+	color: #AFAAA4;
+	padding-left: 15%;
+}
+
+#x {
+	font-size: 16px;
+	padding-left: 10%;
+}
