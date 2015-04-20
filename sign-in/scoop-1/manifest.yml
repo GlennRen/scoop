@@ -1,0 +1,13 @@
+applications:
+- services:
+  - mongodb-6r
+  disk_quota: 1024M
+  host: isaiah
+  name: scoop
+  command: node app
+  path: .
+  domain: mybluemix.net
+  env:
+    redacted_message: '[PRIVATE DATA HIDDEN]'
+  instances: 1
+  memory: 128M
