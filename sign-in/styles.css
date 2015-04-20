@@ -42,6 +42,7 @@ iframe {
 	color: #989898;
 	padding-left: 30px;
 	text-align: center;
+	 margin-top: -4px;
 }
 
 #scoop .right-button {
@@ -126,8 +127,18 @@ iframe {
 #scoop .name {
 	display: inline-block;
 	font-size: 16px;
-	color:#292F33!important;
   font-family: HelveticaNeue-Medium;
+}
+input {
+	border: none;
+  border-bottom: 1px solid #D6D6D6;
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  font-size: 15px;
+}
+#scoop .name a {
+	color:#292F33!important;
 }
 .template {
 	display: none;
@@ -142,6 +153,7 @@ iframe {
 #scoop .tweet {
 	font-size: 15px;
 	color: #292F33;
+	 margin-bottom: 10px;
 }
 #scoop .tweet a {
 	color: #5080A0;
